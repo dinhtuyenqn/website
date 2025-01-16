@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phan Thị Hoài Thương</title>
+    <meta name="description" content="Portfolio của Hoài Thương - Với kinh nghiệm trong digital marketing, content marketing và chiến lược thương hiệu">
+    <meta name="keywords" content="marketing, digital marketing, content marketing, portfolio, Hoài Thương">
+    
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="header-content" data-aos="fade-up">
+            <h1>Phan Thị Hoài Thương</h1>
+            <p>Content Marketing</p>
+            <a href="#contact" class="btn">Liên hệ ngay</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <!-- <h2 class="section-title" data-aos="fade-up">Về tôi</h2> -->
+        <div class="about-content">
+            <div class="about-image" data-aos="fade-right">
+                <img src="images/GioiThieu/gioithieu.jpg" alt="Profile Image" style="width: 400px; height: auto;">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h3 style="font-size: 30px;">Giới thiệu bản thân</h3>
+                <p style="font-size: 25px;">Tôi là sinh viên năm cuối ngành Marketing, đam mê sáng tạo nội dung và xây dựng chiến lược truyền thông hiệu quả. Tôi luôn nỗ lực ứng dụng kiến thức vào thực tế và phát triển bản thân trong lĩnh vực truyền thông số. Mục tiêu của tôi là tạo ra giá trị bền vững cho doanh nghiệp.</p>
+            </div>
+        </div>
+    </section>
+    <style>
+        #about {
+            height: 100vh; /* Chiều cao toàn màn hình */
+            background-image: url('images/GioiThieu/nengioithieu.jpg'); /* Đường dẫn ảnh background */
+            background-size: cover; /* Làm ảnh phủ đầy khung */
+            background-position: center; /* Căn giữa ảnh background */
+            background-repeat: no-repeat; /* Không lặp lại ảnh */
+            display: flex; /* Sử dụng Flexbox để căn giữa nội dung */
+            flex-direction: column;
+            justify-content: center; /* Căn giữa theo chiều dọc */
+            align-items: center; /* Căn giữa theo chiều ngang */
+        }
+        #about .about-image {
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            height: 100%; /* Chiều cao của khối cha (đặt cụ thể nếu cần) */
+        }
+      
+        #about .about-image img {
+            width: 400px; /* Đặt kích thước mong muốn */
+            height: auto;
+        }
+      </style>
+    <section id="skills">
+        <h2 style="font-size: 40px;" class="section-title" data-aos="fade-up">Kinh nghiệm</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up">
+                <img src="images/Skills/skill1.jpg" alt="Nội dung sáng tạo" class="skill-image">
+                <h3>Nội dung sáng tạo</h3>
+                <p>Tạo bài viết chất lượng <br> Tối ưu những từ khóa <br> Tăng lưu lượng truy cập.</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/Skills/skill2.png" alt="Quản lý chiến dịch" class="skill-image">
+                <h3>Quản lý chiến dịch</h3>
+                <p>Xây dựng chiến lược <br> Tạo nội dung thu hút <br> Tăng tương tác.</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/Skills/skill3.jpg" alt="Phân tích và báo cáo" class="skill-image">
+                <h3>Phân tích và báo cáo</h3>
+                <p>Sử dụng công cụ phân tích <br> Đo lường và điều chỉnh chiến dịch.</p>
+            </div>
+        </div>
+    </section>
+    <style>
+        #skills {
+            height: 100vh; /* Chiều cao toàn màn hình */
+            background-image: url('images/GioiThieu/nengioithieu.jpg'); /* Đường dẫn ảnh background */
+            background-size: cover; /* Làm ảnh phủ đầy khung */
+            background-position: center; /* Căn giữa ảnh background */
+            background-repeat: no-repeat; /* Không lặp lại ảnh */
+            display: flex; /* Sử dụng Flexbox để căn giữa nội dung */
+            flex-direction: column;
+            justify-content: center; /* Căn giữa theo chiều dọc */
+            align-items: center; /* Căn giữa theo chiều ngang */
+        }
+        .skills-grid {
+            display: flex; /* Sử dụng Flexbox để đặt các khối nội dung ngang nhau */
+            justify-content: space-between; /* Căn đều các khối */
+            width: 80%; /* Đặt độ rộng của grid */
+}
+
+        .skill-card {
+            background-color: rgba(255, 255, 255, 0.8); /* Nền cho mỗi khối */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1; /* Các khối chiếm đều không gian */
+            margin: 0 10px; /* Khoảng cách giữa các khối */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .skill-image {
+            max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của khối */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+    </style>
+   <section id="contact">
+    <h2 class="section-title" data-aos="fade-up">Thông Tin Liên Hệ</h2>
+    <div class="contact-info">
+        <!-- Tên -->
+        <div class="contact-item">
+            <i class="fas fa-user"></i>
+            <div class="contact-details">
+                <h3>Họ và Tên</h3>
+                <p>Phan Thị Hoài Thương</p>
+            </div>
+        </div>
+        <!-- Số điện thoại -->
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div class="contact-details">
+                <h3>Số Điện Thoại</h3>
+                <p>+84 777 446 315</p>
+            </div>
+        </div>
+        <!-- Email -->
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-details">
+                <h3>Email</h3>
+                <p>emha13012003@gmail.com</p>
+            </div>
+        </div>
+        <!-- Địa chỉ -->
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-details">
+                <h3>Địa Chỉ</h3>
+                <p>Bàu Trảng 7, Thanh Khê, Đà Nẵng</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<style>
+    #contact {
+    background-image: url('images/GioiThieu/nengioithieu.jpg'); /* Đường dẫn ảnh background */
+    background-size: cover; /* Làm ảnh phủ đầy khung */
+    /*background-color: #f8f8f8; */
+    background-position: center; /* Căn giữa ảnh background */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    padding: 60px 0;
+    text-align: center;
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Căn đều 4 cột */
+        gap: 30px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        gap: 15px;
+    }
+
+    .contact-item i {
+        font-size: 40px;
+        color: #007bff;
+    }
+
+    .contact-details h3 {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .contact-details p {
+        font-size: 1rem;
+        margin: 5px 0 0;
+    }
+
+    .contact-item a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    .contact-item a:hover {
+        color: #0056b3;
+    }
+</style>
+
+
+    <footer>
+        <p>&copy; 2025 Hoài Thương. All rights reserved.</p>
+        <div class="social-links">
+            <a><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/hoaithuong.phanthi.796"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+ <!-- Font Awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+ <!-- AOS Animation -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+ 
+ <style>
+     :root {
+         --primary-color: #2563eb;
+         --secondary-color: #1e40af;
+         --text-color: #1f2937;
+         --bg-color: #ffffff;
+     }
+
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+
+     body {
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         line-height: 1.6;
+         color: var(--text-color);
+     }
+
+     /* Header Styles */
+     header {
+         background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/TrangChu/trangchu.jpg');
+         height: 100vh;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         color: white;
+     }
+
+     .header-content {
+         padding: 2rem;
+     }
+
+     .header-content h1 {
+         font-size: 3.5rem;
+         margin-bottom: 1rem;
+     }
+
+     .header-content p {
+         font-size: 1.5rem;
+         margin-bottom: 2rem;
+     }
+
+     /* Navigation */
+     nav {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         background-color: rgba(255,255,255,0.95);
+         padding: 1rem;
+         z-index: 1000;
+         transition: all 0.3s ease;
+     }
+
+     nav.scrolled {
+         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+     }
+
+     .nav-links {
+         display: flex;
+         justify-content: center;
+         list-style: none;
+     }
+
+     .nav-links li {
+         margin: 0 1.5rem;
+     }
+
+     .nav-links a {
+         text-decoration: none;
+         color: var(--text-color);
+         font-weight: 500;
+         transition: color 0.3s ease;
+     }
+
+     .nav-links a:hover {
+         color: var(--primary-color);
+     }
+
+     /* Sections */
+     section {
+         padding: 5rem 2rem;
+     }
+
+     .section-title {
+         text-align: center;
+         margin-bottom: 3rem;
+     }
+
+     /* About Section */
+     .about-content {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 2rem;
+         align-items: center;
+     }
+
+     .about-image img {
+         width: 100%;
+         border-radius: 10px;
+     }
+
+     /* Skills Section */
+     .skills-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+         gap: 2rem;
+     }
+
+     .skill-card {
+         background: white;
+         padding: 2rem;
+         border-radius: 10px;
+         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+         transition: transform 0.3s ease;
+     }
+
+     .skill-card:hover {
+         transform: translateY(-5px);
+     }
+
+     /* Portfolio Section */
+     .portfolio-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         gap: 2rem;
+     }
+
+     .portfolio-item {
+         position: relative;
+         overflow: hidden;
+         border-radius: 10px;
+     }
+
+     .portfolio-item img {
+         width: 100%;
+         height: 250px;
+         object-fit: cover;
+     }
+
+     .portfolio-overlay {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0,0,0,0.8);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         opacity: 0;
+         transition: opacity 0.3s ease;
+     }
+
+     .portfolio-item:hover .portfolio-overlay {
+         opacity: 1;
+     }
+
+     /* Contact Section */
+     .contact-form {
+         max-width: 600px;
+         margin: 0 auto;
+     }
+
+     .form-group {
+         margin-bottom: 1.5rem;
+     }
+
+     .form-group input,
+     .form-group textarea {
+         width: 100%;
+         padding: 0.8rem;
+         border: 1px solid #ddd;
+         border-radius: 5px;
+         font-size: 1rem;
+     }
+
+     .btn {
+         display: inline-block;
+         padding: 1rem 2rem;
+         background-color: var(--primary-color);
+         color: white;
+         text-decoration: none;
+         border-radius: 5px;
+         transition: background-color 0.3s ease;
+     }
+
+     .btn:hover {
+         background-color: var(--secondary-color);
+     }
+
+     /* Footer */
+     footer {
+         background-color: #1f2937;
+         color: white;
+         padding: 2rem;
+         text-align: center;
+     }
+
+     .social-links {
+         margin-top: 1rem;
+     }
+
+     .social-links a {
+         color: white;
+         margin: 0 0.5rem;
+         font-size: 1.5rem;
+     }
+
+     /* Responsive Design */
+     @media (max-width: 768px) {
+         .header-content h1 {
+             font-size: 2.5rem;
+         }
+
+         .about-content {
+             grid-template-columns: 1fr;
+         }
+
+         .nav-links {
+             flex-direction: column;
+             text-align: center;
+         }
+
+         .nav-links li {
+             margin: 0.5rem 0;
+         }
+     }
+ </style>
+</html>
